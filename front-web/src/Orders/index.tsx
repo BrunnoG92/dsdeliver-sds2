@@ -1,6 +1,6 @@
 import StepsHeader from './StepsHeader';
 import ProductsList from './ProductsList';
-import {toast, ToastContainer} from 'react-toastify'
+import {toast} from 'react-toastify'
 import './styles.css'
 import { useEffect } from 'react';
 import { useState } from 'react';
