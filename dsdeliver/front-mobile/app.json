@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "front-mobile",
-    "slug": "front-mobile",
+    "name": "DS Delivery",
+    "slug": "ds-delivery",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -27,6 +27,8 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "description": "\nDelivery application for restaurants developed during the week Dev Superior Full Stack.",
+    "githubUrl": "https://github.com/BrunoG92/dsdeliver-sds2/tree/main/dsdeliver/front-mobile"
   }
 }
