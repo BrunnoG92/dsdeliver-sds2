@@ -1,0 +1,16 @@
+package com.devsuperior.dsdeliver.entities;
+
+import java.time.Instant;
+import java.util.Set;
+
+public class Order {
+private Long id;
+private String addres;
+private Double latitude;
+private Double longitute;
+private Instant moment;
+private OrderStatus status;
+
+
+private Set<Product> products;
+}

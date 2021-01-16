@@ -1,0 +1,16 @@
+package com.devsuperior.dsdeliver.services;
+
+import java.util.List;
+
+import org.springframework.stereotype.Service;
+
+import com.devsuperior.dsdeliver.dto.ProductDTO;
+
+@Service
+public class ProductService {
+	public List <ProductDTO> findALL (){
+		
+		
+	}
+
+}
