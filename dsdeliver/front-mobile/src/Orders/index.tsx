@@ -1,6 +1,8 @@
 import React from 'react';
-import { StyleSheet, Text, View, Image } from 'react-native';
+import { StyleSheet, Text, ScrollView, Image } from 'react-native';
 import { RectButton } from 'react-native-gesture-handler';
+import Header from '../Header';
+import OrderCard from '../OrderCard';
 
 function Orders() {
     const handelOnPress = () => {
@@ -8,14 +10,29 @@ function Orders() {
     }
     return (
         <>
-            <View>
-              <Text> Listagem de Pedidos </Text>
-            </View>
+            <Header/>
+            <ScrollView style={styles.container}>
+              <OrderCard/>
+              <OrderCard/>
+              <OrderCard/>
+              <OrderCard/>
+              <OrderCard/>
+              <OrderCard/>
+              <OrderCard/>
+              <OrderCard/>
+              <OrderCard/>
+              <OrderCard/>
+            </ScrollView>
         </>
 
     );
 }
 const styles = StyleSheet.create({
+    container: {
+        paddingRight: '5%',
+        paddingLeft: '5%',
+
+    }
 
 });
 export default Orders;
